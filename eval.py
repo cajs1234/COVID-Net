@@ -1,6 +1,7 @@
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from sklearn.metrics import confusion_matrix
 import numpy as np
-import tensorflow as tf
 import os, argparse
 
 from data import (
